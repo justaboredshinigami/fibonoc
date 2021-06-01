@@ -15,5 +15,6 @@ int main() {
 	}
     cout << "Number is "<< v[n-1];
     cout << "*****************";
+    cout << "okieee!";
     return 0;
 }
