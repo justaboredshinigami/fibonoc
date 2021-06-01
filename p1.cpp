@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-
+	cout << "*****************";
 	int n;
 	cout << "Enter a number ";
 	cin >> n;
@@ -14,5 +14,6 @@ int main() {
 		v[i] = v[i-1] + v[i-2];
 	}
     cout << "Number is "<< v[n-1];
-
+    cout << "*****************";
+    return 0;
 }
